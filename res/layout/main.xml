@@ -3,11 +3,15 @@
               android:orientation="vertical"
               android:layout_width="fill_parent"
               android:layout_height="fill_parent"
+              android:background="@android:color/darker_gray"
         >
     <TextView
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="Hello World, MyActivity"
+            android:text="Second branch"
+            android:textColor="@android:color/black"
+            android:textSize="50sp"
+
             />
 </LinearLayout>
 
