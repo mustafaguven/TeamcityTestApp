@@ -77,10 +77,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="proguard-project.txt" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="proguard-project.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/proguard-project.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="127" column="22" selection-start="4209" selection-end="4209" vertical-scroll-proportion="0.49125597" vertical-offset="2231" max-vertical-offset="2860">
+            <state line="126" column="17" selection-start="4166" selection-end="4166" vertical-scroll-proportion="0.0" vertical-offset="791" max-vertical-offset="2860">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="75" selection-start="345" selection-end="345" vertical-scroll-proportion="0.19077902" vertical-offset="0" max-vertical-offset="629">
               <folding />
             </state>
           </provider>
@@ -101,11 +110,11 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/ant.properties" />
         <option value="$PROJECT_DIR$/res/layout/main.xml" />
         <option value="$PROJECT_DIR$/project.properties" />
         <option value="$PROJECT_DIR$/proguard-project.txt" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
       </list>
     </option>
   </component>
@@ -208,8 +217,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="ExportedModule" value="TeamcityTestApp" />
     <property name="ExportedApkPath" value="D:\maven_test\TeamcityTestApp\TeamcityTestApp.apk" />
-    <property name="AndroidRunProguardForReleaseBuild" value="false" />
+    <property name="AndroidRunProguardForReleaseBuild" value="true" />
     <property name="SearchEverywhereHistory" value="main.x" />
+    <property name="AndroidProguardConfigPaths" value="D:\Android\tools\proguard\proguard-android.txt;D:\maven_test\TeamcityTestApp\proguard-project.txt" />
   </component>
   <component name="RunManager" selected="Android Application.TeamcityTestApp">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
@@ -400,7 +410,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24979983" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24979983" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977098" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -458,20 +468,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="28" selection-start="643" selection-end="643" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="440">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="46" selection-start="658" selection-end="658" vertical-scroll-proportion="0.45454547" vertical-offset="0" max-vertical-offset="1960">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ant.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="61" selection-start="758" selection-end="758" vertical-scroll-proportion="0.50874406" vertical-offset="0" max-vertical-offset="629">
@@ -503,9 +499,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/build.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="0" selection-start="3046" selection-end="3046" vertical-scroll-proportion="0.12337662" vertical-offset="1344" max-vertical-offset="1960">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TeamcityTestApp.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="29" selection-start="206" selection-end="206" vertical-scroll-proportion="0.16233766" vertical-offset="0" max-vertical-offset="616">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/proguard-project.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="127" column="22" selection-start="4209" selection-end="4209" vertical-scroll-proportion="0.49125597" vertical-offset="2231" max-vertical-offset="2860">
+        <state line="126" column="17" selection-start="4166" selection-end="4166" vertical-scroll-proportion="0.0" vertical-offset="791" max-vertical-offset="2860">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="75" selection-start="345" selection-end="345" vertical-scroll-proportion="0.19077902" vertical-offset="0" max-vertical-offset="629">
           <folding />
         </state>
       </provider>
